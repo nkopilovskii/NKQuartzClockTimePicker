@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B780C94212405BA00D184E9 /* screenshot_minutes_seconds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B780C90212405BA00D184E9 /* screenshot_minutes_seconds.png */; };
-		1B780C95212405BA00D184E9 /* screenshot_emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B780C91212405BA00D184E9 /* screenshot_emoji.png */; };
-		1B780C96212405BA00D184E9 /* screenshot_12_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B780C92212405BA00D184E9 /* screenshot_12_hours.png */; };
-		1B780C97212405BA00D184E9 /* screenshot_24_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B780C93212405BA00D184E9 /* screenshot_24_hours.png */; };
+		1B780C9C21240F2000D184E9 /* screenshot_minutes_seconds.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B780C9821240F1F00D184E9 /* screenshot_minutes_seconds.png */; };
+		1B780C9D21240F2000D184E9 /* screenshot_emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B780C9921240F1F00D184E9 /* screenshot_emoji.png */; };
+		1B780C9E21240F2000D184E9 /* screenshot_12_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B780C9A21240F1F00D184E9 /* screenshot_12_hours.png */; };
+		1B780C9F21240F2000D184E9 /* screenshot_24_hours.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B780C9B21240F2000D184E9 /* screenshot_24_hours.png */; };
 		1B7E74BA2122C33D00609230 /* Black12HoursPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74B62122C33D00609230 /* Black12HoursPickerVC.swift */; };
 		1B7E74BB2122C33D00609230 /* EmojiPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74B72122C33D00609230 /* EmojiPickerVC.swift */; };
 		1B7E74BC2122C33D00609230 /* SecondsPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74B82122C33D00609230 /* SecondsPickerVC.swift */; };
@@ -37,10 +37,10 @@
 
 /* Begin PBXFileReference section */
 		01E3369A729229DADEA684C2 /* Pods_NKQuartzClockTimePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKQuartzClockTimePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B780C90212405BA00D184E9 /* screenshot_minutes_seconds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_minutes_seconds.png; sourceTree = "<group>"; };
-		1B780C91212405BA00D184E9 /* screenshot_emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_emoji.png; sourceTree = "<group>"; };
-		1B780C92212405BA00D184E9 /* screenshot_12_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_12_hours.png; sourceTree = "<group>"; };
-		1B780C93212405BA00D184E9 /* screenshot_24_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_24_hours.png; sourceTree = "<group>"; };
+		1B780C9821240F1F00D184E9 /* screenshot_minutes_seconds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_minutes_seconds.png; sourceTree = "<group>"; };
+		1B780C9921240F1F00D184E9 /* screenshot_emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_emoji.png; sourceTree = "<group>"; };
+		1B780C9A21240F1F00D184E9 /* screenshot_12_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_12_hours.png; sourceTree = "<group>"; };
+		1B780C9B21240F2000D184E9 /* screenshot_24_hours.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot_24_hours.png; sourceTree = "<group>"; };
 		1B7E74B62122C33D00609230 /* Black12HoursPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Black12HoursPickerVC.swift; sourceTree = "<group>"; };
 		1B7E74B72122C33D00609230 /* EmojiPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiPickerVC.swift; sourceTree = "<group>"; };
 		1B7E74B82122C33D00609230 /* SecondsPickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondsPickerVC.swift; sourceTree = "<group>"; };
@@ -97,10 +97,10 @@
 		1B1EBD6A212308AE00DE9CF1 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				1B780C92212405BA00D184E9 /* screenshot_12_hours.png */,
-				1B780C93212405BA00D184E9 /* screenshot_24_hours.png */,
-				1B780C91212405BA00D184E9 /* screenshot_emoji.png */,
-				1B780C90212405BA00D184E9 /* screenshot_minutes_seconds.png */,
+				1B780C9A21240F1F00D184E9 /* screenshot_12_hours.png */,
+				1B780C9B21240F2000D184E9 /* screenshot_24_hours.png */,
+				1B780C9921240F1F00D184E9 /* screenshot_emoji.png */,
+				1B780C9821240F1F00D184E9 /* screenshot_minutes_seconds.png */,
 			);
 			name = Screenshots;
 			sourceTree = "<group>";
@@ -279,11 +279,11 @@
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				1B8E92DE2123090C00BA25AD /* Main.storyboard in Resources */,
-				1B780C95212405BA00D184E9 /* screenshot_emoji.png in Resources */,
-				1B780C94212405BA00D184E9 /* screenshot_minutes_seconds.png in Resources */,
+				1B780C9D21240F2000D184E9 /* screenshot_emoji.png in Resources */,
+				1B780C9C21240F2000D184E9 /* screenshot_minutes_seconds.png in Resources */,
 				1B7E74BF2122DBAD00609230 /* Deutsch.ttf in Resources */,
-				1B780C97212405BA00D184E9 /* screenshot_24_hours.png in Resources */,
-				1B780C96212405BA00D184E9 /* screenshot_12_hours.png in Resources */,
+				1B780C9F21240F2000D184E9 /* screenshot_24_hours.png in Resources */,
+				1B780C9E21240F2000D184E9 /* screenshot_12_hours.png in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

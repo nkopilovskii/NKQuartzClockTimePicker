@@ -204,7 +204,8 @@ class NKQuartzClockTimePicker: UIView {
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Screenshots
-![image](https://github.com/nkopilovskii/NKQuartzClockTimePicker/blob/master/Example/NKQuartzClockTimePicker/screenshot_24_hours.png?raw=true)  ![image](https://github.com/nkopilovskii/NKQuartzClockTimePicker/blob/master/Example/NKQuartzClockTimePicker/screenshot_12_hours.png?raw=true)   ![image](https://github.com/nkopilovskii/NKQuartzClockTimePicker/blob/master/Example/NKQuartzClockTimePicker/screenshot_minutes_seconds.png?raw=true)  ![image](https://github.com/nkopilovskii/NKQuartzClockTimePicker/blob/master/Example/NKQuartzClockTimePicker/screenshot_emoji.png?raw=true)
+![image](https://github.com/nkopilovskii/NKQuartzClockTimePicker/blob/master/Example/NKQuartzClockTimePicker/screenshot_24_hours.png?raw=true)   ![image](https://github.com/nkopilovskii/NKQuartzClockTimePicker/blob/master/Example/NKQuartzClockTimePicker/screenshot_12_hours.png?raw=true)   
+![image](https://github.com/nkopilovskii/NKQuartzClockTimePicker/blob/master/Example/NKQuartzClockTimePicker/screenshot_minutes_seconds.png?raw=true)   ![image](https://github.com/nkopilovskii/NKQuartzClockTimePicker/blob/master/Example/NKQuartzClockTimePicker/screenshot_emoji.png?raw=true)
 
 ## Requirements
 iOS 10.0
