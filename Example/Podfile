@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NKQuartzClockTimePicker_Example' do
+  pod 'NKQuartzClockTimePicker', :path => '../'
+
+  target 'NKQuartzClockTimePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

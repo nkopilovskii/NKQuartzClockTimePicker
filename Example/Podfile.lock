@@ -1,0 +1,16 @@
+PODS:
+  - NKQuartzClockTimePicker (0.1.0)
+
+DEPENDENCIES:
+  - NKQuartzClockTimePicker (from `../`)
+
+EXTERNAL SOURCES:
+  NKQuartzClockTimePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NKQuartzClockTimePicker: 57c4d29ef226c4e6f4f0437bf42c4fe29c380d41
+
+PODFILE CHECKSUM: 2fc0f0ed6536e753a8aec1dda7c4455080e05445
+
+COCOAPODS: 1.5.3

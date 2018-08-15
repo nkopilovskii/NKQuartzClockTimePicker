@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1379CC9385ACC3D6BD3FD09B1913E907 /* Pods-NKQuartzClockTimePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 167066A1564D82076BE3C4AA74E0F407 /* Pods-NKQuartzClockTimePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13E8F265F832FACFD9DD89E395823C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1B7E74AD2122A77A00609230 /* NKQuartzClockTimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74A62122A77A00609230 /* NKQuartzClockTimePicker.swift */; };
+		1B7E74AE2122A77A00609230 /* NKQCConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74A72122A77A00609230 /* NKQCConfig.swift */; };
+		1B7E74AF2122A77A00609230 /* NKQCTimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74A82122A77A00609230 /* NKQCTimeButton.swift */; };
+		1B7E74B02122A77A00609230 /* CAShapeLayer+Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74A92122A77A00609230 /* CAShapeLayer+Hand.swift */; };
+		1B7E74B12122A77A00609230 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74AA2122A77A00609230 /* CGPoint+Extension.swift */; };
+		1B7E74B22122A77A00609230 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74AB2122A77A00609230 /* CGRect+Extension.swift */; };
+		1B7E74B32122A77A00609230 /* CAShapeLayer+Notch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7E74AC2122A77A00609230 /* CAShapeLayer+Notch.swift */; };
+		3A331634572CE91145A0D261B05B78A9 /* Pods-NKQuartzClockTimePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EB31EB18D2AC2AE79C522EC2B169F1 /* Pods-NKQuartzClockTimePicker_Example-dummy.m */; };
+		4F7ECB7186568FDCD8EAB3A9D9061410 /* Pods-NKQuartzClockTimePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD6414381F713E3D050A735388FF6B4 /* Pods-NKQuartzClockTimePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575E0B140309BAB8A8AFF7EBDC4DCDC5 /* NKQuartzClockTimePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FBC9F513FEF50480FB810E625CD8E9 /* NKQuartzClockTimePicker-dummy.m */; };
+		62FED6A35AE10DD00F97BAA1AB1092DE /* NKQuartzClockTimePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C2A4829EA9C9ED7B076A56D4787422C /* NKQuartzClockTimePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859469512096DB91B6638847B11C8921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		96E0BAD3F8D497DBB4AE5F017937ED71 /* Pods-NKQuartzClockTimePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF37D326D86E8DB371C003986840A2 /* Pods-NKQuartzClockTimePicker_Tests-dummy.m */; };
+		F297BB4462FE18F616C7906DECB973AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AED4225AEBC4F8CAFA20DFD03F4975E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED578777185A756F72EFB8407DBFBF05;
+			remoteInfo = "Pods-NKQuartzClockTimePicker_Example";
+		};
+		D09AB161E00BAB011EF0050E49C55A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2DCBA8EB23A40D40EA0DE0AB34B80E;
+			remoteInfo = NKQuartzClockTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FBC9F513FEF50480FB810E625CD8E9 /* NKQuartzClockTimePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NKQuartzClockTimePicker-dummy.m"; sourceTree = "<group>"; };
+		10455C70BE916F4E47BC7E166783E21F /* Pods-NKQuartzClockTimePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKQuartzClockTimePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		167066A1564D82076BE3C4AA74E0F407 /* Pods-NKQuartzClockTimePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NKQuartzClockTimePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		1B7E74A62122A77A00609230 /* NKQuartzClockTimePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKQuartzClockTimePicker.swift; path = NKQuartzClockTimePicker/Classes/NKQuartzClockTimePicker.swift; sourceTree = "<group>"; };
+		1B7E74A72122A77A00609230 /* NKQCConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKQCConfig.swift; path = NKQuartzClockTimePicker/Classes/NKQCConfig.swift; sourceTree = "<group>"; };
+		1B7E74A82122A77A00609230 /* NKQCTimeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKQCTimeButton.swift; path = NKQuartzClockTimePicker/Classes/NKQCTimeButton.swift; sourceTree = "<group>"; };
+		1B7E74A92122A77A00609230 /* CAShapeLayer+Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+Hand.swift"; path = "NKQuartzClockTimePicker/Classes/CAShapeLayer+Hand.swift"; sourceTree = "<group>"; };
+		1B7E74AA2122A77A00609230 /* CGPoint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extension.swift"; path = "NKQuartzClockTimePicker/Classes/CGPoint+Extension.swift"; sourceTree = "<group>"; };
+		1B7E74AB2122A77A00609230 /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGRect+Extension.swift"; path = "NKQuartzClockTimePicker/Classes/CGRect+Extension.swift"; sourceTree = "<group>"; };
+		1B7E74AC2122A77A00609230 /* CAShapeLayer+Notch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+Notch.swift"; path = "NKQuartzClockTimePicker/Classes/CAShapeLayer+Notch.swift"; sourceTree = "<group>"; };
+		1BD6414381F713E3D050A735388FF6B4 /* Pods-NKQuartzClockTimePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NKQuartzClockTimePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1C2A4829EA9C9ED7B076A56D4787422C /* NKQuartzClockTimePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKQuartzClockTimePicker-umbrella.h"; sourceTree = "<group>"; };
+		2C47A5FB156CA7CC0C78ECBFCE96A26C /* NKQuartzClockTimePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NKQuartzClockTimePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3C5BC86D3DB0E7F380B6D3ABA482C6AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E088FAC1598E25175EEA45A47E01B7 /* Pods-NKQuartzClockTimePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKQuartzClockTimePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EEF37D326D86E8DB371C003986840A2 /* Pods-NKQuartzClockTimePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NKQuartzClockTimePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		53F4F15F92D79430C8761454BA1C7BA2 /* Pods-NKQuartzClockTimePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKQuartzClockTimePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		595883C2140D7F8E225B70D2BA7BD801 /* Pods-NKQuartzClockTimePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NKQuartzClockTimePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EC272F5DE01DFB671BD29B6E2E7DA08 /* NKQuartzClockTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKQuartzClockTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		620E5D8A53BAEDB8E3D07946E85E33FD /* NKQuartzClockTimePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NKQuartzClockTimePicker.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B1A6F995EC5049F3FF8DB80C11299E3 /* Pods_NKQuartzClockTimePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKQuartzClockTimePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E03B4F78ACB7077C0AA5EB8766B66BE /* Pods-NKQuartzClockTimePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NKQuartzClockTimePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80EB31EB18D2AC2AE79C522EC2B169F1 /* Pods-NKQuartzClockTimePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NKQuartzClockTimePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		8A9916C3FCB5A30E6E6BC3608E971554 /* Pods-NKQuartzClockTimePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKQuartzClockTimePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		91BC785855A0DED67F9066984AE2DE56 /* NKQuartzClockTimePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NKQuartzClockTimePicker.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977AC3E1142BE1B13D27F4A92AFE6685 /* Pods-NKQuartzClockTimePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NKQuartzClockTimePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		A585DDC170FB56010F7858DCA7BD3708 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9681CC204B50D36C592D98FE1AAA555 /* Pods_NKQuartzClockTimePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NKQuartzClockTimePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DDE8093EE7994601743FA15A0EDD47 /* Pods-NKQuartzClockTimePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NKQuartzClockTimePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		B3B651C4CB9CFC85BF3BD5A147A05F1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74AFC8918F5782928DCBE899D971E52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C6A16C21C22BB42F0A6A0582E68F72FD /* Pods-NKQuartzClockTimePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NKQuartzClockTimePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		CBCB81A0D1C14E1EA0CD60D9E991E5E1 /* NKQuartzClockTimePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NKQuartzClockTimePicker-prefix.pch"; sourceTree = "<group>"; };
+		CCBD4001AF9B9BAB1BFE622FE715F897 /* Pods-NKQuartzClockTimePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NKQuartzClockTimePicker_Example.modulemap"; sourceTree = "<group>"; };
+		CF26BE93EAD809CE08A6FE6CA7C015D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E07FE4EED1E88DB8E214C850889BB91C /* Pods-NKQuartzClockTimePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKQuartzClockTimePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEC73D8A49B1C72812DC1BF49006DAAD /* Pods-NKQuartzClockTimePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NKQuartzClockTimePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F48D625DE3CFDE10690AEEF00BD2FCF8 /* Pods-NKQuartzClockTimePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NKQuartzClockTimePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F93E30E87EB6F502E244B2BCF68872F2 /* Pods-NKQuartzClockTimePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NKQuartzClockTimePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FB40B75C812C7B78E2CD1E5A5D2E701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F297BB4462FE18F616C7906DECB973AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D0042EBE5082A968E2E2E13DE42084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E8F265F832FACFD9DD89E395823C96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06808493BEBAB3CC47584160DBA53C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859469512096DB91B6638847B11C8921 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5BCBB9197D8737DB8CC73F19545976 /* Pods-NKQuartzClockTimePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5BC86D3DB0E7F380B6D3ABA482C6AD /* Info.plist */,
+				C6A16C21C22BB42F0A6A0582E68F72FD /* Pods-NKQuartzClockTimePicker_Tests.modulemap */,
+				7E03B4F78ACB7077C0AA5EB8766B66BE /* Pods-NKQuartzClockTimePicker_Tests-acknowledgements.markdown */,
+				E07FE4EED1E88DB8E214C850889BB91C /* Pods-NKQuartzClockTimePicker_Tests-acknowledgements.plist */,
+				4EEF37D326D86E8DB371C003986840A2 /* Pods-NKQuartzClockTimePicker_Tests-dummy.m */,
+				F93E30E87EB6F502E244B2BCF68872F2 /* Pods-NKQuartzClockTimePicker_Tests-frameworks.sh */,
+				B1DDE8093EE7994601743FA15A0EDD47 /* Pods-NKQuartzClockTimePicker_Tests-resources.sh */,
+				1BD6414381F713E3D050A735388FF6B4 /* Pods-NKQuartzClockTimePicker_Tests-umbrella.h */,
+				45E088FAC1598E25175EEA45A47E01B7 /* Pods-NKQuartzClockTimePicker_Tests.debug.xcconfig */,
+				10455C70BE916F4E47BC7E166783E21F /* Pods-NKQuartzClockTimePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-NKQuartzClockTimePicker_Tests";
+			path = "Target Support Files/Pods-NKQuartzClockTimePicker_Tests";
+			sourceTree = "<group>";
+		};
+		38C739F1EEB18ABC2DB8C942F2550526 /* Pods-NKQuartzClockTimePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B3B651C4CB9CFC85BF3BD5A147A05F1E /* Info.plist */,
+				CCBD4001AF9B9BAB1BFE622FE715F897 /* Pods-NKQuartzClockTimePicker_Example.modulemap */,
+				595883C2140D7F8E225B70D2BA7BD801 /* Pods-NKQuartzClockTimePicker_Example-acknowledgements.markdown */,
+				53F4F15F92D79430C8761454BA1C7BA2 /* Pods-NKQuartzClockTimePicker_Example-acknowledgements.plist */,
+				80EB31EB18D2AC2AE79C522EC2B169F1 /* Pods-NKQuartzClockTimePicker_Example-dummy.m */,
+				F48D625DE3CFDE10690AEEF00BD2FCF8 /* Pods-NKQuartzClockTimePicker_Example-frameworks.sh */,
+				977AC3E1142BE1B13D27F4A92AFE6685 /* Pods-NKQuartzClockTimePicker_Example-resources.sh */,
+				167066A1564D82076BE3C4AA74E0F407 /* Pods-NKQuartzClockTimePicker_Example-umbrella.h */,
+				8A9916C3FCB5A30E6E6BC3608E971554 /* Pods-NKQuartzClockTimePicker_Example.debug.xcconfig */,
+				EEC73D8A49B1C72812DC1BF49006DAAD /* Pods-NKQuartzClockTimePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-NKQuartzClockTimePicker_Example";
+			path = "Target Support Files/Pods-NKQuartzClockTimePicker_Example";
+			sourceTree = "<group>";
+		};
+		73FBA191E07F2BAD5B9443AC6863F2E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CF26BE93EAD809CE08A6FE6CA7C015D3 /* LICENSE */,
+				2C47A5FB156CA7CC0C78ECBFCE96A26C /* NKQuartzClockTimePicker.podspec */,
+				B74AFC8918F5782928DCBE899D971E52 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7424159753139F96CFD3EB00E28ECA40 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C739F1EEB18ABC2DB8C942F2550526 /* Pods-NKQuartzClockTimePicker_Example */,
+				0E5BCBB9197D8737DB8CC73F19545976 /* Pods-NKQuartzClockTimePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A70F6DE131EC4808F98539382165334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC272F5DE01DFB671BD29B6E2E7DA08 /* NKQuartzClockTimePicker.framework */,
+				A9681CC204B50D36C592D98FE1AAA555 /* Pods_NKQuartzClockTimePicker_Example.framework */,
+				6B1A6F995EC5049F3FF8DB80C11299E3 /* Pods_NKQuartzClockTimePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				ADA841CDCE9A7E2CAE9E998128BD3804 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7A70F6DE131EC4808F98539382165334 /* Products */,
+				7424159753139F96CFD3EB00E28ECA40 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA841CDCE9A7E2CAE9E998128BD3804 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF97AB5466FA4DACA9F3FBECDC457812 /* NKQuartzClockTimePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD39B2400ECA46D37BB63C1C5D7DDD4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A585DDC170FB56010F7858DCA7BD3708 /* Info.plist */,
+				91BC785855A0DED67F9066984AE2DE56 /* NKQuartzClockTimePicker.modulemap */,
+				620E5D8A53BAEDB8E3D07946E85E33FD /* NKQuartzClockTimePicker.xcconfig */,
+				03FBC9F513FEF50480FB810E625CD8E9 /* NKQuartzClockTimePicker-dummy.m */,
+				CBCB81A0D1C14E1EA0CD60D9E991E5E1 /* NKQuartzClockTimePicker-prefix.pch */,
+				1C2A4829EA9C9ED7B076A56D4787422C /* NKQuartzClockTimePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NKQuartzClockTimePicker";
+			sourceTree = "<group>";
+		};
+		FF97AB5466FA4DACA9F3FBECDC457812 /* NKQuartzClockTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E74A62122A77A00609230 /* NKQuartzClockTimePicker.swift */,
+				1B7E74A72122A77A00609230 /* NKQCConfig.swift */,
+				1B7E74A82122A77A00609230 /* NKQCTimeButton.swift */,
+				1B7E74A92122A77A00609230 /* CAShapeLayer+Hand.swift */,
+				1B7E74AC2122A77A00609230 /* CAShapeLayer+Notch.swift */,
+				1B7E74AA2122A77A00609230 /* CGPoint+Extension.swift */,
+				1B7E74AB2122A77A00609230 /* CGRect+Extension.swift */,
+				73FBA191E07F2BAD5B9443AC6863F2E4 /* Pod */,
+				FD39B2400ECA46D37BB63C1C5D7DDD4D /* Support Files */,
+			);
+			name = NKQuartzClockTimePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		77545ACDEA9F6A56487B3E87D86386FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62FED6A35AE10DD00F97BAA1AB1092DE /* NKQuartzClockTimePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1ECC46F3E82024D7E4D47D724AA028C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1379CC9385ACC3D6BD3FD09B1913E907 /* Pods-NKQuartzClockTimePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD514D3C53548037A6D76779EA27E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7ECB7186568FDCD8EAB3A9D9061410 /* Pods-NKQuartzClockTimePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F70FD4D0DA19609130A7B2CCECA4DCD /* Pods-NKQuartzClockTimePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1D995B8D0F8368F93EE3D3AE076090 /* Build configuration list for PBXNativeTarget "Pods-NKQuartzClockTimePicker_Tests" */;
+			buildPhases = (
+				74D01B95408EA990B398F9ACDCEED3FA /* Sources */,
+				46D0042EBE5082A968E2E2E13DE42084 /* Frameworks */,
+				FEAD514D3C53548037A6D76779EA27E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B61B0930D0FAD1D61BA202270D3ECC /* PBXTargetDependency */,
+			);
+			name = "Pods-NKQuartzClockTimePicker_Tests";
+			productName = "Pods-NKQuartzClockTimePicker_Tests";
+			productReference = 6B1A6F995EC5049F3FF8DB80C11299E3 /* Pods_NKQuartzClockTimePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC2DCBA8EB23A40D40EA0DE0AB34B80E /* NKQuartzClockTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB75BC290EB63C71D787573551A4AB00 /* Build configuration list for PBXNativeTarget "NKQuartzClockTimePicker" */;
+			buildPhases = (
+				59E3A1EF5E03F4322D5B654E86151966 /* Sources */,
+				D06808493BEBAB3CC47584160DBA53C5 /* Frameworks */,
+				77545ACDEA9F6A56487B3E87D86386FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKQuartzClockTimePicker;
+			productName = NKQuartzClockTimePicker;
+			productReference = 5EC272F5DE01DFB671BD29B6E2E7DA08 /* NKQuartzClockTimePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED578777185A756F72EFB8407DBFBF05 /* Pods-NKQuartzClockTimePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF413F951BBF8EC6FEB23E54806B67C3 /* Build configuration list for PBXNativeTarget "Pods-NKQuartzClockTimePicker_Example" */;
+			buildPhases = (
+				BF4BA90954A27E7F53C26FAEFFE21DFB /* Sources */,
+				2FB40B75C812C7B78E2CD1E5A5D2E701 /* Frameworks */,
+				E1ECC46F3E82024D7E4D47D724AA028C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27105D541DDE1BB201E4BD075B2307D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-NKQuartzClockTimePicker_Example";
+			productName = "Pods-NKQuartzClockTimePicker_Example";
+			productReference = A9681CC204B50D36C592D98FE1AAA555 /* Pods_NKQuartzClockTimePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					DC2DCBA8EB23A40D40EA0DE0AB34B80E = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7A70F6DE131EC4808F98539382165334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC2DCBA8EB23A40D40EA0DE0AB34B80E /* NKQuartzClockTimePicker */,
+				ED578777185A756F72EFB8407DBFBF05 /* Pods-NKQuartzClockTimePicker_Example */,
+				2F70FD4D0DA19609130A7B2CCECA4DCD /* Pods-NKQuartzClockTimePicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59E3A1EF5E03F4322D5B654E86151966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575E0B140309BAB8A8AFF7EBDC4DCDC5 /* NKQuartzClockTimePicker-dummy.m in Sources */,
+				1B7E74AE2122A77A00609230 /* NKQCConfig.swift in Sources */,
+				1B7E74B22122A77A00609230 /* CGRect+Extension.swift in Sources */,
+				1B7E74B12122A77A00609230 /* CGPoint+Extension.swift in Sources */,
+				1B7E74B32122A77A00609230 /* CAShapeLayer+Notch.swift in Sources */,
+				1B7E74B02122A77A00609230 /* CAShapeLayer+Hand.swift in Sources */,
+				1B7E74AD2122A77A00609230 /* NKQuartzClockTimePicker.swift in Sources */,
+				1B7E74AF2122A77A00609230 /* NKQCTimeButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D01B95408EA990B398F9ACDCEED3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E0BAD3F8D497DBB4AE5F017937ED71 /* Pods-NKQuartzClockTimePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4BA90954A27E7F53C26FAEFFE21DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A331634572CE91145A0D261B05B78A9 /* Pods-NKQuartzClockTimePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13B61B0930D0FAD1D61BA202270D3ECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NKQuartzClockTimePicker_Example";
+			target = ED578777185A756F72EFB8407DBFBF05 /* Pods-NKQuartzClockTimePicker_Example */;
+			targetProxy = 6AED4225AEBC4F8CAFA20DFD03F4975E /* PBXContainerItemProxy */;
+		};
+		27105D541DDE1BB201E4BD075B2307D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NKQuartzClockTimePicker;
+			target = DC2DCBA8EB23A40D40EA0DE0AB34B80E /* NKQuartzClockTimePicker */;
+			targetProxy = D09AB161E00BAB011EF0050E49C55A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		173C2DFA650959D1D7ED5D939EFA93B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC73D8A49B1C72812DC1BF49006DAAD /* Pods-NKQuartzClockTimePicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NKQuartzClockTimePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NKQuartzClockTimePicker_Example/Pods-NKQuartzClockTimePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43B6A663E97D335C7887B4DA3C3A38F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620E5D8A53BAEDB8E3D07946E85E33FD /* NKQuartzClockTimePicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NKQuartzClockTimePicker/NKQuartzClockTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NKQuartzClockTimePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NKQuartzClockTimePicker/NKQuartzClockTimePicker.modulemap";
+				PRODUCT_MODULE_NAME = NKQuartzClockTimePicker;
+				PRODUCT_NAME = NKQuartzClockTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5921F44B92EDE247C74B8455CE6FD686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10455C70BE916F4E47BC7E166783E21F /* Pods-NKQuartzClockTimePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NKQuartzClockTimePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NKQuartzClockTimePicker_Tests/Pods-NKQuartzClockTimePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB1C383D0BDFD4A97E9A93C0A545C576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620E5D8A53BAEDB8E3D07946E85E33FD /* NKQuartzClockTimePicker.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NKQuartzClockTimePicker/NKQuartzClockTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NKQuartzClockTimePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NKQuartzClockTimePicker/NKQuartzClockTimePicker.modulemap";
+				PRODUCT_MODULE_NAME = NKQuartzClockTimePicker;
+				PRODUCT_NAME = NKQuartzClockTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8949524264AD11ACC01AF59E32C49E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E088FAC1598E25175EEA45A47E01B7 /* Pods-NKQuartzClockTimePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NKQuartzClockTimePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NKQuartzClockTimePicker_Tests/Pods-NKQuartzClockTimePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF94192E2EACD0CDD14639899BA3FB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9916C3FCB5A30E6E6BC3608E971554 /* Pods-NKQuartzClockTimePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NKQuartzClockTimePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NKQuartzClockTimePicker_Example/Pods-NKQuartzClockTimePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1D995B8D0F8368F93EE3D3AE076090 /* Build configuration list for PBXNativeTarget "Pods-NKQuartzClockTimePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8949524264AD11ACC01AF59E32C49E3 /* Debug */,
+				5921F44B92EDE247C74B8455CE6FD686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB75BC290EB63C71D787573551A4AB00 /* Build configuration list for PBXNativeTarget "NKQuartzClockTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B6A663E97D335C7887B4DA3C3A38F3 /* Debug */,
+				BB1C383D0BDFD4A97E9A93C0A545C576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF413F951BBF8EC6FEB23E54806B67C3 /* Build configuration list for PBXNativeTarget "Pods-NKQuartzClockTimePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF94192E2EACD0CDD14639899BA3FB06 /* Debug */,
+				173C2DFA650959D1D7ED5D939EFA93B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

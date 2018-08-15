@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l8X-2u-ttX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Deutsch.ttf">
+            <string>Deutsch-Gothic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Data Source-->
+        <scene sceneID="AnR-lE-ouH">
+            <objects>
+                <viewController id="UYi-fG-uo9" customClass="Black12HoursPickerVC" customModule="NKQuartzClockTimePicker_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C2F-5a-Gop">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zge-7W-Sxl" customClass="NKQuartzClockTimePicker" customModule="NKQuartzClockTimePicker">
+                                <rect key="frame" x="16" y="130" width="343" height="343"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Zge-7W-Sxl" secondAttribute="height" id="etM-W2-wIK"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="timeButtonsMargin">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="notchMargin">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="handMargin">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="UYi-fG-uo9" id="FbW-4i-ScJ"/>
+                                    <outlet property="delegate" destination="UYi-fG-uo9" id="2Pl-K9-e8O"/>
+                                </connections>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gp8-RR-joh">
+                                <rect key="frame" x="184.5" y="298.5" width="6" height="6"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="6" id="8yT-fe-V7T"/>
+                                    <constraint firstAttribute="height" constant="6" id="c8K-a5-rdf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Gp8-RR-joh" firstAttribute="centerY" secondItem="Zge-7W-Sxl" secondAttribute="centerY" id="Qtn-dp-EYG"/>
+                            <constraint firstItem="Ewa-8v-7nD" firstAttribute="trailing" secondItem="Zge-7W-Sxl" secondAttribute="trailing" constant="16" id="fcE-1W-ucT"/>
+                            <constraint firstItem="Zge-7W-Sxl" firstAttribute="leading" secondItem="Ewa-8v-7nD" secondAttribute="leading" constant="16" id="gfY-0U-HMM"/>
+                            <constraint firstItem="Gp8-RR-joh" firstAttribute="centerX" secondItem="Zge-7W-Sxl" secondAttribute="centerX" id="jSb-cR-yUQ"/>
+                            <constraint firstItem="Zge-7W-Sxl" firstAttribute="centerY" secondItem="C2F-5a-Gop" secondAttribute="centerY" id="snv-gZ-Ov8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ewa-8v-7nD"/>
+                    </view>
+                    <connections>
+                        <outlet property="picker" destination="Zge-7W-Sxl" id="0Vj-tn-aRW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TDJ-ai-13B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1401" y="-373"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ftb-wf-b9G">
+            <objects>
+                <viewController id="ozD-Pq-viA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l8y-8F-KA0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7d4-l7-E9z">
+                                <rect key="frame" x="103.5" y="42" width="168" height="35"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Black 12 Hours Picker"/>
+                                <connections>
+                                    <segue destination="UYi-fG-uo9" kind="show" id="Eem-IT-9bk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Maj-1p-1kn">
+                                <rect key="frame" x="107" y="119" width="161" height="31"/>
+                                <fontDescription key="fontDescription" name="Deutsch-Gothic" family="Deutsch Gothic" pointSize="17"/>
+                                <state key="normal" title="White 24 Hours Picker"/>
+                                <connections>
+                                    <segue destination="03Y-7y-jvb" kind="show" id="Fea-ka-DiO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hg-SI-998">
+                                <rect key="frame" x="134.5" y="192" width="106" height="30"/>
+                                <state key="normal" title="Seconds Picker"/>
+                                <connections>
+                                    <segue destination="F4v-Nw-UM8" kind="show" id="jRW-83-40f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbc-kB-GNk">
+                                <rect key="frame" x="145.5" y="264" width="84" height="30"/>
+                                <state key="normal" title="Emoji Picker"/>
+                                <connections>
+                                    <segue destination="Wbe-TI-g3m" kind="show" id="UxH-la-o8c"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7d4-l7-E9z" firstAttribute="top" secondItem="1R8-Az-AOG" secondAttribute="top" constant="42" id="9Pf-Wc-17M"/>
+                            <constraint firstItem="Maj-1p-1kn" firstAttribute="centerX" secondItem="l8y-8F-KA0" secondAttribute="centerX" id="P6H-ie-JXy"/>
+                            <constraint firstItem="7d4-l7-E9z" firstAttribute="centerX" secondItem="l8y-8F-KA0" secondAttribute="centerX" id="SYN-1f-VPT"/>
+                            <constraint firstItem="Maj-1p-1kn" firstAttribute="top" secondItem="7d4-l7-E9z" secondAttribute="bottom" constant="42" id="UfH-4b-hGh"/>
+                            <constraint firstItem="nbc-kB-GNk" firstAttribute="centerX" secondItem="l8y-8F-KA0" secondAttribute="centerX" id="ZIn-FZ-flm"/>
+                            <constraint firstItem="0hg-SI-998" firstAttribute="top" secondItem="Maj-1p-1kn" secondAttribute="bottom" constant="42" id="jby-nz-UTz"/>
+                            <constraint firstItem="nbc-kB-GNk" firstAttribute="top" secondItem="0hg-SI-998" secondAttribute="bottom" constant="42" id="l0W-fd-rOe"/>
+                            <constraint firstItem="0hg-SI-998" firstAttribute="centerX" secondItem="l8y-8F-KA0" secondAttribute="centerX" id="xda-Mq-j49"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1R8-Az-AOG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FH2-93-RZa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rQZ-hS-csJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="499" y="337"/>
+        </scene>
+        <!--Data Source-->
+        <scene sceneID="IbK-xz-EBa">
+            <objects>
+                <viewController id="03Y-7y-jvb" customClass="White24HoursPickerVC" customModule="NKQuartzClockTimePicker_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uXy-Ud-rZo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vlT-96-2sM" customClass="NKQuartzClockTimePicker" customModule="NKQuartzClockTimePicker">
+                                <rect key="frame" x="16" y="60" width="343" height="483"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="03Y-7y-jvb" id="hRo-iI-ESU"/>
+                                    <outlet property="delegate" destination="03Y-7y-jvb" id="cNp-Mc-chS"/>
+                                </connections>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q6K-4b-guP">
+                                <rect key="frame" x="183.5" y="297.5" width="8" height="8"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="8" id="6ej-ie-iYw"/>
+                                    <constraint firstAttribute="height" constant="8" id="j91-fm-PLW"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lPi-Td-Q19" firstAttribute="trailing" secondItem="vlT-96-2sM" secondAttribute="trailing" constant="16" id="Ho3-FR-YWW"/>
+                            <constraint firstItem="vlT-96-2sM" firstAttribute="top" secondItem="lPi-Td-Q19" secondAttribute="top" constant="60" id="VgV-BD-aJG"/>
+                            <constraint firstItem="lPi-Td-Q19" firstAttribute="bottom" secondItem="vlT-96-2sM" secondAttribute="bottom" constant="60" id="Wea-Vx-DMw"/>
+                            <constraint firstItem="q6K-4b-guP" firstAttribute="centerX" secondItem="vlT-96-2sM" secondAttribute="centerX" id="bRF-5X-ufg"/>
+                            <constraint firstItem="vlT-96-2sM" firstAttribute="leading" secondItem="lPi-Td-Q19" secondAttribute="leading" constant="16" id="gnp-u3-IMg"/>
+                            <constraint firstItem="q6K-4b-guP" firstAttribute="centerY" secondItem="vlT-96-2sM" secondAttribute="centerY" id="kL2-gc-McU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lPi-Td-Q19"/>
+                    </view>
+                    <connections>
+                        <outlet property="dot" destination="q6K-4b-guP" id="eQt-h3-Y9a"/>
+                        <outlet property="picker" destination="vlT-96-2sM" id="PfI-K2-VFR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XhC-uq-7er" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1401" y="337"/>
+        </scene>
+        <!--Data Source-->
+        <scene sceneID="Moa-Fr-Yku">
+            <objects>
+                <viewController id="Wbe-TI-g3m" customClass="EmojiPickerVC" customModule="NKQuartzClockTimePicker_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0jY-0E-4cl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UGh-Dw-a1t" customClass="NKQuartzClockTimePicker" customModule="NKQuartzClockTimePicker">
+                                <rect key="frame" x="16" y="130" width="343" height="343"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="UGh-Dw-a1t" secondAttribute="height" id="thn-Wk-GH8"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="Wbe-TI-g3m" id="7aE-C6-75Q"/>
+                                    <outlet property="delegate" destination="Wbe-TI-g3m" id="cKx-dw-6GX"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zM2-yP-qOg">
+                                <rect key="frame" x="165" y="277.5" width="45" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UGh-Dw-a1t" firstAttribute="centerY" secondItem="0jY-0E-4cl" secondAttribute="centerY" id="Gxe-tq-kYc"/>
+                            <constraint firstItem="zM2-yP-qOg" firstAttribute="centerX" secondItem="UGh-Dw-a1t" secondAttribute="centerX" id="NM8-IL-50f"/>
+                            <constraint firstItem="4et-3S-ge9" firstAttribute="trailing" secondItem="UGh-Dw-a1t" secondAttribute="trailing" constant="16" id="cCP-7Z-su3"/>
+                            <constraint firstItem="UGh-Dw-a1t" firstAttribute="leading" secondItem="4et-3S-ge9" secondAttribute="leading" constant="16" id="hIr-ZG-OLC"/>
+                            <constraint firstItem="zM2-yP-qOg" firstAttribute="centerY" secondItem="UGh-Dw-a1t" secondAttribute="centerY" id="vW4-jO-Zx3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4et-3S-ge9"/>
+                    </view>
+                    <connections>
+                        <outlet property="picker" destination="UGh-Dw-a1t" id="vAZ-rk-g7i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0rE-87-SNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="491" y="1064"/>
+        </scene>
+        <!--Data Source-->
+        <scene sceneID="e4T-uP-3SQ">
+            <objects>
+                <viewController id="F4v-Nw-UM8" customClass="SecondsPickerVC" customModule="NKQuartzClockTimePicker_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gRS-qq-Aoh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PQo-rN-EQF" customClass="NKQuartzClockTimePicker" customModule="NKQuartzClockTimePicker">
+                                <rect key="frame" x="16" y="73" width="343" height="457"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="PQo-rN-EQF" secondAttribute="height" multiplier="3:4" id="Xx0-TT-oLx"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="F4v-Nw-UM8" id="1ym-bf-J0O"/>
+                                    <outlet property="delegate" destination="F4v-Nw-UM8" id="LtS-Sl-ViI"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h7h-tE-ZyQ" firstAttribute="trailing" secondItem="PQo-rN-EQF" secondAttribute="trailing" constant="16" id="MNt-IJ-lcH"/>
+                            <constraint firstItem="PQo-rN-EQF" firstAttribute="leading" secondItem="h7h-tE-ZyQ" secondAttribute="leading" constant="16" id="UXk-ZL-CFV"/>
+                            <constraint firstItem="PQo-rN-EQF" firstAttribute="centerY" secondItem="gRS-qq-Aoh" secondAttribute="centerY" id="xnG-E3-t9F"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h7h-tE-ZyQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="picker" destination="PQo-rN-EQF" id="EkL-wG-Kx0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zru-ZB-Zzb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1401" y="1064"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZPz-xf-2et">
+            <objects>
+                <navigationController id="l8X-2u-ttX" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="eM5-i4-dn9">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ozD-Pq-viA" kind="relationship" relationship="rootViewController" id="U1S-RZ-8ZV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUQ-4E-4YD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-195" y="337"/>
+        </scene>
+    </scenes>
+</document>
